@@ -1,13 +1,13 @@
 // Resposta 1
 const funcionario = {
     codigo: 10,
-    nome: 'João'
+    nome: 'Gabriela'
 };
 
 // Resposta 2
 const funcionario2: {codigo: number, nome: string} = {
     codigo: 10,
-    nome: 'joao'
+    nome: 'Gabriela'
 }
 
 // Respostas 3 e 4
@@ -18,9 +18,9 @@ interface Funcionario {  // Já conhece interfaces? https://blog.logrocket.com/t
 
 const funcionarioObj = {} as Funcionario;
 funcionarioObj.codigo = 10;
-funcionarioObj.nome = 'João';
+funcionarioObj.nome = 'Gabriela';
 
 const funcionarioObj2: Funcionario = {
     codigo: 10,
-    nome: 'João'
+    nome: 'Gabriela'
 }
